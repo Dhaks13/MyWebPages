@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+    </head>
+    <body>
+      <section id="heading">
+      <h1 id='title'>Survey Form</h1>
+      <p id='description'>Thank you for taking the time to help us improve the platform</p>
+      </section>
+      <section id="form">
+        <form id='survey-form' method="post" action='https://register-demo.freecodecamp.org'>
+        <fieldset>
+        <label for='name' id="name-label">Name <input type='text' id='name' placeholder='Enter your name' required/></label>
+<label id="email-label" for='email'>E-mail <input type='email' id='email' placeholder="Enter you E-mail" required/> </label>
+        <label id="number-label" for='number'>Age (Optional) <input id='number' type='number' min=13 max=120 placeholder="Age"> </label>
+        <label for='dropdown'>Which option best describes your current role?<select id='dropdown'>
+            <option value="">Select the current role</option>
+            <option value='1'>Learner</option>
+            <option value='2'>Tutor</option>
+            </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Would you recommend us to your friends?</legend>
+<label for='sharre'>
+<input type='radio' id='share-yes'
+name='share' class='inline' value='1' checked/> Yes
+</label>
+<label><input id='share-no' type='radio'
+name='share' value='0' class='inline' /> No
+</label>
+<label>Which features you like? (Check all that apply)</label>
+<label for='like'>
+  <input name='like' class="inline" id="like" type="checkbox" value='Open'> Open Source
+</label>
+<label for='like'>
+  <input name='like' class="inline" id="like" type="checkbox" value='Community' >
+  Community
+</label>
+<label for='like'>
+  <input name='like' class="inline" id="like" type="checkbox" value="Design" >
+  Design
+</label>
+<label>Any comments or suggestions?<br>
+<textarea rows=3 cols=30>
+</textarea>
+</label>
+
+          </fieldset>
+          <input type='submit' id='submit' name='Submit' value="Submit">
+        </form>
+        </section>
+      </body>
+  </html>

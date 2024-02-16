@@ -1,0 +1,53 @@
+body{
+  font-family: -apple-system,'Segoe UI',Arial, sans-serif;
+  font-size: 1.6rem;
+  color: #333;
+  margin: 0;
+}
+
+#main{
+      text-align: center;
+       margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+#title{
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+li b{
+      font-weight: 650;
+}
+
+.tribute-link{
+    font-weight: 625;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+li p{
+  text-align: left;
+  padding: 5px 10px;
+}
+
+li{
+  margin: 2% 12%;
+}
